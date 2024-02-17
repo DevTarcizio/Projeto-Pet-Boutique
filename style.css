@@ -12,6 +12,11 @@ Fontes
 sans-serif 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -110,7 +115,7 @@ body {
     margin: 0 0 20px 0;
 }
 
-#listserv span {
+#listserv span, .secao-redes span {
     font-weight: 700;
     font-style: italic;
 }
@@ -124,4 +129,100 @@ body {
 #imgserv img {
     border-radius: 5px;
     box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/* 3 e 5 seção */
+
+.secao-redes {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.secao-redes p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos a {
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.logos img {
+    width: 50px;
+    height: 50px;
+}
+
+/* 4 seção */
+
+.secao-marcas {
+    width: 85vw;
+    padding: 120px 80px;
+}
+
+.secao-marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-marcas div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secao-marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* 6 seção */
+
+.secao-maps {
+    width: 85vw;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.secao-maps h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-maps p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-maps iframe {
+    width: 800px;
+    height: 450px;
+}
+
+/* 7 seção */
+
+.secao-rodape {
+    width: 98.7vw;
+    padding: 10px 0px;
+    background-color: #3c184e;
+}
+
+.secao-rodape p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
